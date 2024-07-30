@@ -72,11 +72,12 @@ run		12000
 # clearing fixes and dumps
 unfix		1
 undump		1
+print "Equilibrium Done" 
 
 # saving equilibrium length for strain calculation
 variable	tmp	equal	“lx”
 variable	L0	equal	${tmp}
-print	“Initial Length, L0: ${L0}”
+print	“Initial Length at x direction, L0: ${L0}”
 
 
 ######################################################
